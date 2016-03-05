@@ -27,6 +27,10 @@
 
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [self adsSwitchDidChange:self];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
